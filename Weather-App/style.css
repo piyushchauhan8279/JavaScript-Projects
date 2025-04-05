@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(41, 40, 40);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('assets/image.jpeg');
+    background-repeat: no-repeat;
+    background-size:cover ;   
+}
+
+#container{
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: rgb(53, 52, 52);
+    background-image: url(assets/image.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+h2{
+    text-align: center;
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.hidden{
+    display: none;
+}
+
+#sub-container{
+    margin: 0px 16px 24px 16px;
+    display: flex;
+    
+}
+
+#city-input{
+    padding: 8px;
+    margin-right: 8px;
+}
+
+input:hover{
+    outline: none;
+}
+
+#btn{
+    padding: 1px;
+    width: 60px;
+    height: 35px;
+    color: azure;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: #ac2a2a;
+}
+
+.el{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+#error-msg{
+    text-align: center;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}

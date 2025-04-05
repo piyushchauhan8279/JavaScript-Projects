@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(52, 51, 51);
+    margin: 0;
+    padding: 0;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 16px;
+}
+
+h2,h3,p{
+    color: antiquewhite;
+}
+
+
+.btn{
+    background-color: blueviolet;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:rgb(106, 30, 106);
+}
+
+
+
+.hidden{
+    display: none;
+}
+
+#total{
+    text-align: end;
+}
+
+
+.product{
+    background-color: grey;
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
+#cart-list{
+    background-color: grey;
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+    
+    color: blanchedalmond;
+    font-weight: bold;
+
+}
